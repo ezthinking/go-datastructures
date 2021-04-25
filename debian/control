@@ -1,0 +1,18 @@
+Source: golang-go-datastructures
+Section: contrib/net
+Priority: optional
+Maintainer: Erik Ziegenbalg <erikziege@gmail.com>
+Build-Depends: debhelper,
+ dh-golang,
+ golang,
+ golang-github-stretchr-testify-dev,
+ golang-github-tinylib-msgp-dev,
+ autoconf,
+ automake
+Standards-Version: 3.9.8
+
+Package: golang-go-datastructures
+Architecture: all
+Depends: golang
+Pre-Depends: bash-completion
+Description: Goldengoose dbft
